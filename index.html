@@ -13,7 +13,7 @@
 
 
 <body>
-    <!--ingresa texto    -->
+    
     <main class="container">
         <header>
             <img class="logo-alura" src="Alura Challenge - Desafío 1 - Lógica/Logo-1.png" alt="logo de alura ">
@@ -21,22 +21,23 @@
         </header>
 
         <div class="caja1">
-            <form >
+            <form>
                 <textarea class="textArea" type="text" id="textArea" class="input-padron" required
                     placeholder="Ingrese el texto aqui" cols="70" rows="10"></textarea>
-                </form>
-            
+            </form>
+
             <div class="advertencia">
                 <img src="Alura Challenge - Desafío 1 - Lógica/787-7871374_exclamation-in-red-circle-png-download-transparent-png.png"
                     alt="simbolo exclamacion" class="exclamacion">
-                    <p>Solo letras minúsculas y sin acentos </p>
+                <p>Solo letras minúsculas y sin acentos </p>
             </div>
             <div class="botones">
                 <button class="encriptar" id="encriptar" onclick="encriptar(), transicion()">Encriptar</button>
-                <button class="desencriptar" id="desencriptar" onclick="desencriptar(textArea.value), transicion() "> Desencriptar </button>
+                <button class="desencriptar" id="desencriptar" onclick="desencriptar(textArea.value), transicion() ">
+                    Desencriptar </button>
             </div>
         </div>
-        
+
 
 
         <!-- cotenedor  de imagen-->
@@ -53,16 +54,16 @@
             </section>
 
         </div>
-        
+
 
     </main>
 
-    
+
     <script src="script.js"></script>
     </main>
 
     <footer>
-       <p class="autor">Realizado por: Ernestor Mejias</p>
+        <p class="autor">Realizado por: Ernestor Mejias</p>
 
 
     </footer>

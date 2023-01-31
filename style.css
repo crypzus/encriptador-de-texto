@@ -1,20 +1,20 @@
-
 .container {
     position: relative;
     width: 1440px;
     height: 1024px;
     background: #F3F5FC;
-    
+
 }
 
 .logo-alura {
-    position:absolute;
+    position: absolute;
     top: 20px;
     margin: 60px;
     width: 120px;
     height: 48px;
 }
-h1{
+
+h1 {
     top: 95px;
     font-family: 'Inter';
     font-style: italic;
@@ -26,13 +26,14 @@ h1{
     left: 200px;
 
 }
-.caja1{
-position:absolute;
-width: 800px;
-height: 840px;
-left: 200px;
-top:150px;
-background: #F3F5FC;
+
+.caja1 {
+    position: absolute;
+    width: 800px;
+    height: 840px;
+    left: 200px;
+    top: 150px;
+    background: #F3F5FC;
 
 }
 
@@ -53,6 +54,7 @@ background: #F3F5FC;
     text-transform: lowercase;
     color: #0A3871;
 }
+
 .advertencia {
     display: flex;
     position: absolute;
@@ -67,29 +69,33 @@ background: #F3F5FC;
     opacity: 0.8;
     ;
 }
+
 .exclamacion {
     position: absolute;
     width: 16px;
 }
-.advertencia > .exclamacion + p{
+
+.advertencia>.exclamacion+p {
     position: absolute;
     left: 20px;
 }
+
 .botones {
-    position:absolute;
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
 
-    
+
     width: 680px;
     height: 67px;
     left: 50px;
     top: 720px;
 
 }
+
 .encriptar {
     padding: 24px;
     width: 328px;
@@ -105,7 +111,7 @@ background: #F3F5FC;
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
-    }
+}
 
 
 .desencriptar {
@@ -136,16 +142,17 @@ background: #F3F5FC;
     left: 1000px;
     top: 40px;
 }
-.caja2 > .caja3{
+
+.caja2>.caja3 {
     position: absolute;
     width: 100%;
     top: 30%;
-    
+
 }
 
 
 .info {
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700px;
@@ -157,15 +164,15 @@ background: #F3F5FC;
 }
 
 .mensaje {
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     text-align: center;
-    color: #495057;*/
-
+    color: #495057;
+    */
 }
 
 .copiar {
@@ -224,64 +231,70 @@ background: #F3F5FC;
 @media screen and (max-width:480px) {
 
     /*media query*/
-    .container, .autor {
+    .container,
+    .autor {
         width: auto;
     }
+
     .logo-alura {
         width: auto;
         top: 5%;
         margin: auto;
     }
-    h1{
+
+    h1 {
         top: 7%;
         left: 20%;
         font-size: 25px;
 
     }
-      
-     .caja1{
-        
-        width:100%;
-        left: auto;
-            }
 
-    .textArea{
+    .caja1 {
+
+        width: 100%;
+        left: auto;
+    }
+
+    .textArea {
         left: 5%;
         width: 90%;
         height: 5%;
     }
 
     .advertencia {
-        top:10%;
+        top: 10%;
     }
+
     .botones {
         width: 90%;
         top: 15%;
         left: 5%;
-        
+
     }
-   
-    .encriptar, .desencriptar{
+
+    .encriptar,
+    .desencriptar {
         width: 80%;
-            
-      
+
+
     }
-    .caja2{
+
+    .caja2 {
         width: 90%;
         left: 5%;
-        top:35%;
+        top: 35%;
         height: 60%;
     }
 
-    .caja3{
+    .caja3 {
         width: auto;
         height: auto;
     }
 
-    .copiar{
-    width: 90%;
-    margin-left: 5%;
-    top: 85%;
+    .copiar {
+        width: 90%;
+        margin-left: 5%;
+        top: 85%;
 
     }
 }
